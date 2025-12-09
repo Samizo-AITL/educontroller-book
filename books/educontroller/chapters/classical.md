@@ -7,7 +7,7 @@ title: "古典制御理論 / Classical Control Theory"
 ---
 
 本章では、**PID制御**を中心とした古典制御理論を扱い、**時間領域および周波数領域**での応答解析・設計法を体系的に学びます。  
-制御の基本構造から、**安定性・ロバスト性**までを段階的に理解し、**Pythonによる可視化・シミュレーション**を通じて実装感覚も身につけます。
+制御の基本構造から、**安定性・ロバスト性**までを段階的に理解し、**Pythonによる可視化・シミュレーション**を通じて実装感覚も身に着けます。　
 
 This chapter covers classical control theory centered on **PID control**, systematically addressing **response analysis and design** in both time and frequency domains.  
 It builds a step-by-step understanding from **control structure to robustness**, with implementation experience through **Python-based simulations**.
