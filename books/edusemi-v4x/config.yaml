@@ -1,0 +1,11 @@
+title: "EduSemi v4x"
+summary: "半導体物性・デバイス・プロセス・回路設計まで体系的に学べる統合教材"
+topics:
+  - semiconductor
+  - device
+  - process
+  - engineering
+published: false
+
+chapters:
+  - 01_intro.md
