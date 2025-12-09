@@ -7,20 +7,16 @@ topics:
   - engineering
 published: false
 
-# 重要：chapters フォルダを使うと Zenn に明示
-root: "./chapters"
-
-# 重要：拡張子 .md は書かない（Zenn の仕様）
 chapters:
-  - classical
-  - modern
-  - digital
-  - adaptive
-  - practical
-  - nn_control
-  - rl_control
-  - data_driven
-  - llm_hybrid
-  - pendulum
-  - matlab_tools
-  - SoC_DesignKit_by_ChatGPT
+  - 01_classical
+  - 02_modern
+  - 03_digital
+  - 04_adaptive
+  - 05_practical
+  - 06_nn_control
+  - 07_rl_control
+  - 08_data_driven
+  - 09_llm_hybrid
+  - 10_pendulum
+  - 11_matlab_tools
+  - 12_soc_designkit
