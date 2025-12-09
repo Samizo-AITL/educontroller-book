@@ -9,8 +9,6 @@
 
 ```
 
-```
-
 books/educontroller/
 ├ config.yaml
 ├ cover.png
@@ -26,6 +24,8 @@ books/educontroller/
 ├ 10_pendulum.md
 ├ 11_matlab_tools.md
 └ 12_soc_designkit.md
+
+```
 
 ---
 
