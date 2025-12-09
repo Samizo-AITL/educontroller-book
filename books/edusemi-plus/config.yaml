@@ -1,0 +1,11 @@
+title: "EduSemi-Plus"
+summary: "半導体 × Python × 制御 × AI を横断的に学べる実践教材"
+topics:
+  - semiconductor
+  - python
+  - control
+  - ai
+published: false
+
+chapters:
+  - 01_intro.md
