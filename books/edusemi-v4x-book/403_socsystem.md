@@ -1,5 +1,5 @@
 ---
-title: 特別編 第3章 FSM×PID×LLMによる統合制御システムのSoC実装手法
+title: 特別編　第3章　FSM×PID×LLMによる統合制御システムのSoC実装手法
 ---
 
 ---
