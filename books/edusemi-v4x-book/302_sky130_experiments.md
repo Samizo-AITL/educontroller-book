@@ -1,5 +1,5 @@
 ---
-title: 実践編 第2章　Sky130実験とSPICE特性評価　
+title: 実践編　第2章　Sky130実験とSPICE特性評価　
 ---
 
 ---
