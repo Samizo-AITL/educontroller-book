@@ -8,4 +8,42 @@ topics:
 published: false
 
 chapters:
-  - 01_intro.md
+  - 101_materials.md
+  - 102_comb_logic.md
+  - 103_process_evolution.md
+  - 104_mos_characterristics.md
+  - 105_soc_design_flow.md
+  - 105a_spec_module_if.md
+  - 106_test_and_packege.md
+  - 107_desgin_review_and_org.md
+  - 201_memory_technologies.md
+  - 202_high_voltage_device.md
+  - 203_esd_protection_design.md
+  - 204_layout_optimization.md
+  - 205_analog_mixed_signal.md
+  - 205a_analog_mixed_signal.md
+  - 205b_ams_block_and_pdk.md
+  - 206_pdk_and_eda_environment.md
+  - 207_automation_and_verification.md
+  - 208_fsm_design_basics.md
+  - 209_pll_and_clock_design.md
+  - 300_environment_setup.md
+  - 301_python_automation_tools.md
+  - 302_sky130_experiments.md
+  - 303_openlane_practice.md
+  - 304_poc_spec_and_desgin.md
+  - 305_evaluation_and_design.md
+  - 306_spice_practice.md
+  - 307_bsim4_analysis.md
+  - 401_finfet_gaa.md
+  - 402_chiplet_pkg.md
+  - 402a_systemdk.md
+  - 403_socsystem.md
+  - 404_openlane.md
+  - 405_dfm.md
+  - 406_research.md
+  
+
+
+
+  
