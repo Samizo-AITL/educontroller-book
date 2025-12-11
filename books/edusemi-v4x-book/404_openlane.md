@@ -1,5 +1,5 @@
 ---
-title: 特別編 第4章：FSM×PID×LLM制御系のOpenLaneによるRTL-to-GDSII実装
+title: 特別編　第4章　FSM×PID×LLM制御系のOpenLaneによるRTL-to-GDSII実装
 ---
 
 ---
