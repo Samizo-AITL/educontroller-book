@@ -11,13 +11,13 @@ chapters:
   - 101_materials.md
   - 102_comb_logic.md
   - 103_process_evolution.md
-  - 104_mos_characterristics.md
+  - 104_mos_characteristics.md
   - 105_soc_design_flow.md
   - 105a_spec_module_if.md
   - 106_test_and_packege.md
   - 107_desgin_review_and_org.md
   - 201_memory_technologies.md
-  - 202_high_voltage_device.md
+  - 202_high_voltage_devices.md
   - 203_esd_protection_design.md
   - 204_layout_optimization.md
   - 205_analog_mixed_signal.md
@@ -31,10 +31,10 @@ chapters:
   - 301_python_automation_tools.md
   - 302_sky130_experiments.md
   - 303_openlane_practice.md
-  - 304_poc_spec_and_desgin.md
-  - 305_evaluation_and_design.md
+  - 304_poc_spec_and_design.md
+  - 305_evaluation_and_report.md
   - 306_spice_practice.md
-  - 307_bsim4_analysis.md
+  - 307_bsim4_analysis_base.md
   - 401_finfet_gaa.md
   - 402_chiplet_pkg.md
   - 402a_systemdk.md
