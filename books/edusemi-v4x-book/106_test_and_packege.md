@@ -1,0 +1,107 @@
+---
+title: 基礎編 第6章：テスト・パッケージ・製品化
+---
+
+---
+
+# 📘 基礎編 第6章：テスト・パッケージ・製品化  
+**Fundamentals-Chapter 6: Test, Packaging, and Productization**
+
+---
+
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/chapter6_test_and_package/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/chapter6_test_and_package) |
+
+---
+
+## 🔁 前章との接続｜Connection to Previous Chapter
+
+| 日本語                                                                                                      | English                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| 第5章では、PDKとEDAツールを用いた**SoCの論理〜物理設計フロー**を扱いました。                                 | In Chapter 5, we examined **SoC design flows using PDKs and EDA tools**.                                    |
+| 本章では、その成果物であるSoCを「**製品として成立させる工程（テスト・解析・出荷）**」へと接続します。         | This chapter extends that by focusing on **what it takes to finalize and ship SoC products** successfully.  |
+
+📎 [← 第5章：SoC設計フローとEDAツールへ戻る](../chapter5_soc_design_flow/README.md)
+
+---
+
+## 🧭 概要｜Overview
+
+本章では、**製品品質を守る量産工程の全体像**を解説します。  
+ウエハ製造後の検査・モニタリング・実装・信頼性確認・出荷判断まで、  
+**「不良を市場に出さない」ことを目的とした各プロセスの責任と技術的実践**に焦点を当てます。
+
+> This chapter focuses on the **mass production processes that ensure product quality**.  
+> It covers post-fabrication testing, monitoring, analysis, implementation, and shipment qualification,  
+> with an emphasis on the shared responsibility to **prevent defective products from reaching the market**.
+
+---
+
+## 🎯 本章のねらい｜Learning Objectives
+
+| 🇯🇵 日本語                                                                                  | 🇺🇸 English                                                                                   |
+|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| 製品出荷までの各工程（テスト・パッケージ・解析）の役割を体系的に理解する                         | Understand the **roles of testing, packaging, and failure analysis** in the product pipeline. |
+| D値やリーク検査などの**多品種・高信頼設計に必要な量産技術**を学ぶ                                | Learn key **mass production metrics** such as D-value and leakage testing.                   |
+| 不良解析と信頼性試験の基礎を学び、設計改善と品質保証につなげる                                   | Gain insights into **failure analysis and reliability testing** for design improvement.       |
+
+---
+
+## 📚 節構成｜Chapter Contents
+
+| 節 | ファイル名 / Filename | 内容概要 / Summary |
+|----|------------------------|---------------------|
+| 6.1 | [6.1_etest_monitoring.md](6.1_etest_monitoring.md) | **ETEST**：TEG測定による素子特性のモニタリング<br>📐 *Monitor process condition via Vth, Id, etc.* |
+| 6.2 | [6.2_wafer_test.md](6.2_wafer_test.md) | **ウエハテスト**：製品品質検査とD値による工程評価<br>🧪 *Wafer-level defect screening with D-metric* |
+| 6.3 | [6.3_failure_analysis.md](6.3_failure_analysis.md) | **不良解析**：物理的原因の特定（FIB, OBIRCH, etc.）<br>🔍 *Root cause analysis using FA tools* |
+| 6.3a | [6.3a_process_feedback.md](6.3a_process_feedback.md) | **プロセス工程内のフィードバック**：欠陥解析・フォトQC・CDシフト制御<br>🔄 *In-line defect analysis, photolithography QC loop, and CD shift feedback* |
+| 6.4 | [6.4_packaging.md](6.4_packaging.md) | **パッケージング**：実装と歩留まり、信頼性の確保<br>📦 *COF and package methods for reliable delivery* |
+| 6.5 | [6.5_final_test.md](6.5_final_test.md) | **ファイナルテスト**：市場出荷前の最終判定<br>✅ *Final test as the gatekeeper for shipping* |
+| 6.6 | [6.6_reliability_and_shipping.md](6.6_reliability_and_shipping.md) | **信頼性試験と製品出荷**：バーンイン、寿命試験、出荷管理<br>⏳ *Burn-in, life tests, and shipping control* |
+
+
+### 📎 補足資料｜Supplementary Materials
+
+- [`chapter6_test_and_package/docs/COF_SystemDK.md`](../chapter6_test_and_package/docs/COF_SystemDK.md)  
+  **COF実装とシステムレベルEMI/EMC評価**を扱う教育用補足資料。基材変更→Dk変化→信号/ノイズ→EMC再評価の因果を整理。  
+  *Educational supplement on **COF implementation and system-level EMI/EMC evaluation**, detailing the causal chain: substrate change → Dk variation → signal/noise impact → EMC re-qualification.*
+
+---
+
+## ✅ 本章の意義｜Significance of This Chapter
+
+- **「不良を止める」ための最後の砦**としての量産テストと出荷判断  
+- 工程横断で用いるD値による**多品種品質の見える化**
+- **検査・解析・試験・実装**それぞれが果たす品質責任を理解
+
+> This chapter demonstrates the **final safeguards of production**,  
+> using D-metrics and structured inspections to guarantee product quality and reliability.
+
+---
+
+## 🔜 次章への導入｜Transition to Next Chapter
+
+| 日本語                                                                                                   | English                                                                                              |
+|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| 第7章では、SoC開発における**設計レビュー（DR）と組織的チェック体制**を解説し、<br>製品信頼性の確保を“設計と組織”の両面から考察します。 | Chapter 7 addresses **Design Reviews (DR) and organizational quality control**, framing reliability from both **technical and procedural perspectives**. |
+
+📎 [→ 第7章：設計レビューと品質保証体制へ進む](../chapter7_design_review_and_org/README.md)
+
+---
+
+## 👤 **著者・ライセンス | Author & License**
+
+| 📌 項目 / Item | 📄 内容 / Details |
+|------|------|
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
+| **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **📜 ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/License-Hybrid-blueviolet?style=for-the-badge)](https://samizo-aitl.github.io/Edusemi-v4x/#-ライセンス--license)<br>コード / Code: [MIT](https://opensource.org/licenses/MIT)<br>教材テキスト / Text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)<br>図表 / Figures: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+
+---
+
+## 🔙 戻る｜Back to Top
+
+🏠 [![Site](https://img.shields.io/badge/Site-Edusemi--v4x-lightgrey?style=for-the-badge&logo=githubpages&labelColor=555&color=brightgreen)](../) [![Repo](https://img.shields.io/badge/Repo-Edusemi--v4x-lightgrey?style=for-the-badge&logo=github&labelColor=555&color=blue)](https://github.com/Samizo-AITL/Edusemi-v4x)
