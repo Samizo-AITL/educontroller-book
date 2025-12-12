@@ -1,5 +1,5 @@
 ---
-title: "OpenLane superstableを「最小RTL→GDS」で事前宣言検証してみた"
+title: "OpenLane superstableを「最小RTL→GDS」で事前宣言検証してみた"　
 emoji: "🧩"
 type: "tech"
 topics: ["OpenLane", "SKY130", "EDA", "半導体", "VLSI"]
