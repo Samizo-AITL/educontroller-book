@@ -127,7 +127,8 @@ KLayout での確認結果を、
 KLayoutを起動しなくても、  
 「どう配置・配線されたか」が分かるようにしました。
 
-- `1_overview.png`：全体配置
+`1_overview.png`：全体配置
+
 <img
   src="https://samizo-aitl.github.io/SemiDevKit/openlane/openlane-superstable/spm_min_counter/results/1_overview.png"
   alt="OpenLane superstable spm_min_counter layout overview"
