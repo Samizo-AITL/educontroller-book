@@ -145,3 +145,27 @@ Planar MOSFET の終焉は、
 
 ---
 
+## 参考文献・関連リンク
+
+本記事の内容は、以下の教材・公開リポジトリ構成を前提として整理されています。
+
+### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
+
+- **GitHub Pages（公開教材・日本語）**  
+  👉 https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/
+
+- **GitHub（ソース管理・Markdown原稿）**  
+  👉 https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa
+
+### 📚 関連章（構造転換の位置づけ）
+
+- Planar MOSFET → FinFET → GAA → CFET という  
+  **「電界制御構造の進化」**を体系的に解説した特別編 第1章に相当します。
+
+---
+
+※ 本記事は **Planar MOSFET の物理的限界（SCE）** を起点とし、  
+　**なぜ構造転換が必然であったのか**を理解するための導入位置づけです。  
+　後続記事（FinFET／GAA／CFET 各論）と合わせて読むことを推奨します。
+
+
