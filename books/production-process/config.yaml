@@ -1,0 +1,20 @@
+title: "EduController"
+summary: "古典・現代・デジタル・適応・AI制御まで体系的に学べる統合教材"
+topics:
+  - control
+  - pid
+  - robotics
+  - engineering
+published: false
+
+chapters:
+  - 01_classical.md
+  - 02_modern.md
+  - 03_adaptive.md
+  - 04_digital.md
+  - 05_practical.md
+  - 06_nn_control.md
+  - 07_rl_control.md
+  - 08_data_driven.md
+  - 09_llm_hybrid.md
+  - 10_pendulum.md
