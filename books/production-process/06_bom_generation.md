@@ -1,10 +1,5 @@
 ---
-layout: default
 title: "06_bom_generation"
-description: "部品表（BOM）の作成と設計情報の構造化 / Bill of Materials (BOM) Generation and Structured Design Data"
-author: "Project Design Hub"
-date: 2025-08-18
-tags: ["BOM", "部品コード", "設計管理", "輸出管理", "環境データ", "コスト管理"]
 ---
 
 ---
