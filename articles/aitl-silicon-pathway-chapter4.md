@@ -1,5 +1,5 @@
 ---
-title: "AITL Silicon Pathway Chapter4：FSM 正しさの形式的・構造的保証（Invariant / 安全性 / 等価性）"
+title: "【AITL】AITL Silicon Pathway Chapter4：FSM 正しさの形式的・構造的保証（Invariant / 安全性 / 等価性）"
 emoji: "🧾"
 type: "tech"
 topics: ["verilog", "formal", "fsm", "asic", "aitl"]
