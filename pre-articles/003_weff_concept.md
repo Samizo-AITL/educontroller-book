@@ -1,5 +1,5 @@
 ---
-title: "Weff という考え方：幅 W は構造パラメータになった"
+title: "【FN】Weff という考え方：幅 W は構造パラメータになった"
 emoji: "📏"
 type: "tech"
 topics: ["Weff", "FinFET", "回路設計", "デバイスモデル"]
