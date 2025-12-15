@@ -1,3 +1,7 @@
+---
+title: "02_drawing_creation"
+---
+
 # 02_drawing_creation
 
 **設計意図を反映した2D図面作成演習**  
