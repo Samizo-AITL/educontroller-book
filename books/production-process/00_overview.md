@@ -1,11 +1,10 @@
 ---
-layout: default
-title: 08_production_process - 設計から量産立上げ | Design to Mass Production
+title: "概要 / overview"
 ---
 
 ---
 
-# 🏭 **08_production_process - 設計から量産立上げ | Design to Mass Production**
+# 🏭 **production_process - 設計から量産立上げ | Design to Mass Production**
 
 **設計から量産立上げまでの一貫プロセス教材**  
 **Integrated Process Training from Design to Mass Production**
