@@ -1,5 +1,5 @@
 ---
-title: "【IJ】Gentle Jet：なぜ 2–5 m/s なのか"
+title: "【IJ】Gentle Jet：2–5 m/sに収束する理由"
 emoji: "💧"
 type: "tech"
 topics: ["流体力学", "インクジェット", "MEMS", "Ethical Precision"]
