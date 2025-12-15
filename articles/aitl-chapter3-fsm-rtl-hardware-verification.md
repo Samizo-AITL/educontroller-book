@@ -1,5 +1,5 @@
 ---
-title: "AITL Silicon Pathway Chapter3：FSM RTLは本当にハードウェアとして成立するのか？"
+title: "【AITL】AITL Silicon Pathway Chapter3：FSM RTLは本当にハードウェアとして成立するのか？"
 emoji: "🧪"
 type: "tech"
 topics: ["ASIC", "Verilog", "FSM", "OpenLane", "EDA"]
