@@ -1,5 +1,5 @@
 ---
-title: "【FN】GAA の課題と CFET：次はなぜ上下方向なのか"
+title: "【FN】GAAの課題とCFET：上下積層への必然"
 emoji: "🏗️"
 type: "tech"
 topics: ["CFET", "GAA", "次世代半導体"]
