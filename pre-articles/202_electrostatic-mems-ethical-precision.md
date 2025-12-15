@@ -1,5 +1,5 @@
 ---
-title: "静電 MEMS はなぜ成立するのか：Ethical Precision の設計条件"
+title: "【IJ】静電 MEMS はなぜ成立するのか：Ethical Precision の設計条件"
 emoji: "⚡"
 type: "tech"
 topics: ["MEMS", "静電駆動", "Ethical Precision", "デバイス設計"]
