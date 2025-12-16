@@ -3,7 +3,6 @@ title: "【AITL】AITL Silicon Pathway 入門：Chapter 1（Python Baseline Mode
 emoji: "🚀"
 type: "tech"
 topics: ["aitl", "python", "control", "pid", "fsm", "asic"]
-published: true
 ---
 
 # 🚀 AITL Silicon Pathway  
