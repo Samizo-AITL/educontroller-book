@@ -3,7 +3,6 @@ title: "【AITL】AITL Silicon Pathway Chapter3：FSM RTLは本当にハード�
 emoji: "🧪"
 type: "tech"
 topics: ["ASIC", "Verilog", "FSM", "OpenLane", "EDA"]
-published: false
 ---
 
 ## はじめに（この章で何を確認するのか）
