@@ -8,7 +8,6 @@ topics:
   - cost_reduction
   - device_physics
   - business
-published: false
 ---
 
 ## 免責・取り扱い
