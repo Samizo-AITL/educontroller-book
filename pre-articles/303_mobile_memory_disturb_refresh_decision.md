@@ -8,7 +8,6 @@ topics:
   - mobile
   - device_physics
   - product_development
-published: false
 ---
 
 ## 免責・取り扱い
