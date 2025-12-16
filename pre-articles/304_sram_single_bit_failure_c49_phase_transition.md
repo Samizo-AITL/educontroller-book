@@ -8,7 +8,6 @@ topics:
   - materials
   - process
   - failure_analysis
-published: false
 ---
 
 ## 免責・取り扱い
