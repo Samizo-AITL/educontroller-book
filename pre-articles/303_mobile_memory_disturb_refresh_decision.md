@@ -185,3 +185,12 @@ Disturb Refreshは、
 3. Disturb Refreshと低歩留まり量産判断  
 4. SRAMランダム単ビット不良とC49相転移  
 5. Bump on Activeと低コスト化の限界
+
+---
+
+## 参考情報 / References
+
+- [0.25µm DRAM ウエハテスト：Bin分類表（日本語・英語併記）  
+  – EduSemi-Plus Archive](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/archive/in1998/dram_wafer_test_binclass_0.25um.md)
+
+
