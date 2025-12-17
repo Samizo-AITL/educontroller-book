@@ -144,7 +144,6 @@ Feel free to submit a PR or join the [Discussions](https://github.com/Samizo-AIT
 | **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
 | **External References** | Original license applies | Cite properly |
 
-
 ---
 
 [🔝 トップに戻る / Back to top](../)
