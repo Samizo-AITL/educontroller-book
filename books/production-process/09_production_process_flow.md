@@ -143,11 +143,17 @@ In relation to this workflow, teaching materials on **BOM generation** and **str
 
 ---
 
-## 👤 著作・ライセンス | Author & License
+## 👤 **著作・ライセンス | Author & License**
+
 - ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
-  *Author: Shinichi Samizo (Samizo-AITL)*  
-- 📜 ライセンス / License: **MIT（教育目的での使用・改変を歓迎）**  
-  *MIT License (free use and modification for educational purposes).*
+- 📜 ライセンス
+
+| Item | License | Description |
+|------|---------|-------------|
+| **Source Code** | MIT | Free to use, modify, redistribute |
+| **Text Materials** | CC BY 4.0 / CC BY-SA 4.0 | Attribution & share-alike rules |
+| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
+| **External References** | Original license applies | Cite properly |
 
 ---
 
