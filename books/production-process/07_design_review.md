@@ -72,6 +72,20 @@ This process enhances design quality, traceability, and team communication acros
 
 ---
 
+## 👤 **著作・ライセンス | Author & License**
+
+- ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
+- 📜 ライセンス
+
+| Item | License | Description |
+|------|---------|-------------|
+| **Source Code** | MIT | Free to use, modify, redistribute |
+| **Text Materials** | CC BY 4.0 / CC BY-SA 4.0 | Attribution & share-alike rules |
+| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
+| **External References** | Original license applies | Cite properly |
+
+---
+
 ## 💬 コメント・共有 | Feedback
 
 教育現場や現場設計でのDR運用例、改善アイデア、部門別チェックポイントの共有などがあれば、[Discussions](https://github.com/Samizo-AITL/EduMecha/discussions) にてぜひご参加ください。
