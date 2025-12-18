@@ -1,5 +1,5 @@
 ---
-title: "06_bom_generation"
+title: "Bom Generation"
 ---
 
 ---
