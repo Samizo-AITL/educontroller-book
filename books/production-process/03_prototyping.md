@@ -1,5 +1,5 @@
 ---
-title: "03_prototyping"
+title: "Prototyping"
 ---
 
 # 03_prototyping
