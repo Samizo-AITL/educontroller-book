@@ -1,6 +1,5 @@
 ---
-layout: default
-title: 🏭 TSMC Insight – 技術ロードマップと地政学から読み解くファウンドリ戦略 / TSMC Insight – Foundry Strategy from Roadmap & Geopolitics
+title: "TSMC Insight"
 ---
 
 ---
