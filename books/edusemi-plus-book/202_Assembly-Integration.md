@@ -1,5 +1,5 @@
 ---
-title: "Assembly & Integration / 実装技術"
+title: "【実装技術】前工程と後工程をつなぐ統合技術"
 ---
 
 ---
