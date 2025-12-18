@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Edusemi-Plus｜半導体産業サプライチェーン構造マップ
+title: "半導体産業サプライチェーン構造マップ"
 ---
 
 ---
