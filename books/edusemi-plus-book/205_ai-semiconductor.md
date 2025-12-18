@@ -1,10 +1,5 @@
 ---
-title: " ai-semiconductor"
----
-
----
-layout: default
-title: 🤖 ai-semiconductor – Reading Semiconductors in the AI Era
+title: "【AI半導体】演算特化アーキテクチャの進化"
 ---
 
 ---
