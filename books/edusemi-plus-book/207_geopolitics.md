@@ -1,6 +1,5 @@
 ---
-layout: default
-title: geopolitics – 地政学と半導体産業 / Geopolitics and the Semiconductor Industry
+title: "geopolitics – 地政学と半導体産業"
 ---
 
 ---
