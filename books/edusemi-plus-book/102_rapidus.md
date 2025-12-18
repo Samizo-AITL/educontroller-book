@@ -1,4 +1,8 @@
 ---
+title: "Rapidusと2nm技術の挑戦 "
+---
+
+---
 layout: default
 title: 📘 Rapidusと2nm技術の挑戦 / The Challenge of Rapidus and 2nm Technology
 ---
