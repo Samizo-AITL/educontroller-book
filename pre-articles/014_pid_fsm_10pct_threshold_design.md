@@ -1,154 +1,187 @@
 ---
-title: "【Control Design】Why a 10% Deviation Is the Right Trigger for FSM in PID Systems"
+title: "【制御設計】PIDにFSMを入れるべき「10%」の根拠"
 emoji: "🎛️"
 type: "tech"
-topics: ["control", "PID", "FSM", "reliability", "industrial"]
+topics: ["制御", "PID", "FSM", "信頼性設計", "産業制御"]
 published: true
 ---
 
-## Introduction
+## はじめに
 
-In many industrial control systems, PID control is often sufficient for long-term operation.  
-However, modern designs increasingly add FSM-based supervision or adaptive logic.
+PID制御にFSM（有限状態機械）を重ねる設計は、  
+**理屈では正しそうに見える**一方で、現場では失敗例も多く見られます。
 
-This article explains **why FSM should NOT be always active**,  
-and why **a 10% deviation from the initial PID response is a practical and defensible trigger**.
+本記事では、
 
-The discussion is based on **commercial constraints**, not academic optimality.
+- なぜ FSM を常時動かす設計が危険なのか
+- なぜ「10%のズレ」をFSM発動の閾値とするのか
+- なぜ Reliability Guard（B-Type）が必要なのか
 
----
-
-## The Core Design Philosophy
-
-The hierarchy is simple:
-
-1. **PID is the primary controller**
-2. **FSM is a safety mechanism, not an optimizer**
-3. **Reliability Guard exists to stop FSM from making things worse**
-
-FSM should only intervene when **the system behavior clearly deviates from its expected baseline**.
+を、**商業製品として成立する視点**から整理します。
 
 ---
 
-## Why FSM-First Designs Fail in Practice
+## 基本方針（ここを間違えると全部壊れる）
 
-Aggressive FSM insertion often causes:
+制御階層は明確に分けるべきです。
 
-- Excessive mode switching
-- Artificial waveform distortion
-- Control authority fragmentation
-- Loss of predictability
+1. **PIDは主制御（常時）**
+2. **FSMは例外処理（非常時）**
+3. **Reliability GuardはFSMの暴走止め**
 
-In extreme cases, FSM **degrades performance faster than plant aging itself**.
-
-This is not a theoretical issue — it is a field failure pattern.
+FSMは「賢い制御」ではありません。  
+FSMは**保険**です。
 
 ---
 
-## Establishing a Quantitative Trigger
+## FSMを最初から入れる設計が壊れる理由
 
-### Why Not Always-On FSM?
+摩擦劣化や経年変化に対して、
 
-Because plant degradation is:
-- Slow
-- Continuous
-- Often tolerable within PID margins
+- FSMを常時切り替える
+- 微小な変化で状態遷移する
 
-FSM activation must therefore be **event-driven**, not time-driven.
+こうした設計は、ほぼ確実に次を引き起こします。
 
----
+- 波形の不連続
+- 制御の過補償
+- 状態遷移のチャタリング
+- 顧客からの「なんか挙動おかしくない？」という問い合わせ
 
-## Why 10% Deviation?
-
-### Empirical Observation from a Typical Aging Model
-
-Using a standard friction-aging plant model:
-
-- PID response after **~5 years equivalent aging**
-- Shows approximately **10% deviation** from the initial waveform
-  - Amplitude
-  - Phase
-  - Energy consumption
-
-This provides a **natural engineering reference**, not an arbitrary number.
+**劣化よりFSMの方が制御対象を壊す**、という逆転現象です。
 
 ---
 
-## What Does "10% Deviation" Mean?
+## FSMは「いつ」発動すべきか？
 
-The deviation can be defined using **OR logic**:
+答えは単純です。
 
-FSM is triggered if **any** of the following exceeds 10%:
+> **PIDが「もういつものPIDじゃない」と言える時だけ**
 
-- Amplitude deviation
-- Phase / timing deviation
-- Control effort deviation
-
-> **AND conditions are too strict and delay intervention dangerously.**
+そのためには、  
+**定量的なトリガー**が必要です。
 
 ---
 
-## Why OR Logic Is Essential
+## なぜ 10% なのか？
 
-Unexpected degradation can cause:
+### 典型的な劣化モデルからの事実
 
-- Sudden friction increase
-- Partial actuator failure
-- Environmental contamination
+今回の摩擦劣化モデルでは、
 
-These events can compress *years of degradation into months*.
+- PID単体で運転を継続した場合
+- **約5年相当の劣化**で
+- 初期波形から **おおよそ10%程度のズレ**が発生
 
-OR logic ensures:
-- Fast response
-- Predictable intervention
-- Clear explainability to customers
+以下のいずれかに明確な差が出ます。
 
----
+- 振幅
+- 位相（時間遅れ）
+- 制御エネルギー
 
-## The Role of Reliability Guard (B-Type)
-
-FSM itself can cause harm.
-
-Therefore, B-Type control introduces a **Reliability Guard**:
-
-- Limits FSM authority
-- Penalizes control effort escalation
-- Allows graceful fallback to PID dominance
-
-FSM is allowed to act —  
-but **not allowed to destabilize**.
+これは「都合の良い数字」ではなく、  
+**モデルから自然に出てきた値**です。
 
 ---
 
-## Commercial Perspective: What Customers Expect
+## 10%とは何の10%か？
 
-From a customer viewpoint:
+FSMのトリガー条件は **OR条件**とします。
 
-- PID works for years → acceptable
-- FSM activates only when deviation is visible → acceptable
-- Sudden behavior change without explanation → unacceptable
+以下のいずれかが **初期PID比で10%超**：
 
-The **10% rule** is explainable, defensible, and auditable.
+- 振幅差
+- 位相（Δt）差
+- 制御エネルギー差
 
----
+### なぜ OR なのか？
 
-## Summary
-
-- PID should remain the default controller
-- FSM should activate only after **observable deviation**
-- 10% deviation aligns with realistic aging timelines
-- OR-based triggers reflect real-world failures
-- Reliability Guard protects against overreaction
-
-FSM is not intelligence.  
-FSM is **insurance**.
+AND条件は**現場では遅すぎる**からです。
 
 ---
 
-## Closing Thoughts
+## 想定外は、想定より早く来る
 
-If FSM activates at day zero,  
-**your PID is not trusted**.
+現実には、
 
-If FSM activates at 10% deviation,  
-**your system behaves like a commercial product**.
+- 摩耗
+- 異物混入
+- 温度変化
+- 部分破損
+
+などにより、
+
+> 「モデル上の5年劣化」が  
+> **数か月で起きる**
+
+ことがあります。
+
+OR条件でなければ、  
+FSMは**間に合いません**。
+
+---
+
+## B-Type（Reliability Guard）の役割
+
+FSMは万能ではありません。
+
+FSMが入ることで：
+
+- 制御が悪化する
+- 出力が不安定になる
+- 電流・電圧が増大する
+
+こうしたケースは**普通に起きます**。
+
+そこで B-Type では：
+
+- FSMの制御量を制限
+- 効率・努力量を常時監視
+- 悪化時はPID優勢に戻す
+
+つまり、
+
+> **FSMすら信用しすぎない**
+
+という設計です。
+
+---
+
+## 商業的に見たとき、顧客はどう感じるか
+
+顧客目線ではこうです。
+
+- 数年間、PIDだけで安定 → 問題なし
+- 明確な劣化が出た後に補正 → 納得できる
+- 初日から挙動が変わる → 不信感
+
+**10%ルール**は、
+
+- 説明できる
+- 保証文書に書ける
+- クレーム対応できる
+
+という点で、非常に重要です。
+
+---
+
+## まとめ
+
+- PIDは主役
+- FSMは非常用
+- 10%はモデルに基づく現実的閾値
+- トリガーは OR 条件
+- Reliability GuardでFSMを制御する
+
+FSMは知能ではありません。  
+FSMは**保険であり、最後の手段**です。
+
+---
+
+## おわりに
+
+もし FSM が day=0 から動いているなら、  
+それは **PID設計が失敗している**可能性が高い。
+
+FSMが10%ズレたときにだけ動くなら、  
+それは **商業製品として正しい振る舞い**です。
