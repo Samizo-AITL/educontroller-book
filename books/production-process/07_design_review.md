@@ -1,5 +1,5 @@
 ---
-title: "07_design_review"
+title: "Design Review"
 ---
 
 # 07_design_review
