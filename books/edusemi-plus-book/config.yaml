@@ -1,11 +1,36 @@
 title: "Edusemi-Plus"
-summary: ""
+summary: "半導体を軸に、技術・産業・地政学・投資までを横断的に理解する実践知識集"
 topics:
-  - 
-  - 
-  - 
-  - 
+  - 半導体
+  - semiconductor
+  - AI
+  - 地政学
+  - 投資
 published: true
 
 chapters:
-  - 
+  # ====== Part 1: 先端半導体・企業動向 ======
+  - 101_tsmc_insight.md
+  - 102_rapidus.md
+  - 103_apple-silicon.md
+
+  # ====== Part 2: 材料・デバイス・応用 ======
+  - 201_materials.md
+  - 202_Assembly-Integration.md
+  - 203_quantum-semiconductor.md
+  - 204_applied-devices.md
+  - 205_ai-semiconductor.md
+  - 206_ai-tools-comparison.md
+  - 207_geopolitics.md
+  - 208_investment.md
+
+  # ====== Part 3: 半導体産業・装置・EDA ======
+  - 301_industry.md
+  - 302_eda-tools.md
+  - 303_photomasks.md
+  - 304_front-equipments.md
+  - 305_front-materials.md
+  - 306_back-equipments.md
+  - 307_back-materials.md
+  - 308_metrology-tools.md
+  - 309_device-makers.md
