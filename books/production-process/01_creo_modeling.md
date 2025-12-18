@@ -1,5 +1,5 @@
 ---
-title: "01_creo_modeling"
+title: "Creo Modeling"
 ---
 
 # 01_creo_modeling
