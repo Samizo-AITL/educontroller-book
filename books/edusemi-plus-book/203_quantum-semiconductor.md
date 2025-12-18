@@ -1,6 +1,5 @@
 ---
-layout: default
-title: ⚛️ quantum-semiconductor｜次世代量子半導体の構造と展望
+title: "Quantum-Semiconductor｜次世代量子半導体の構造と展望"
 ---
 
 ---
