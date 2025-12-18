@@ -1,5 +1,5 @@
 ---
-title: "【Apple Silicon】SoC垂直統合が変えた半導体設計"
+title: "I.【Apple Silicon】SoC垂直統合が変えた半導体設計"
 ---
 
 ---
