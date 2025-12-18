@@ -1,5 +1,5 @@
 ---
-title: "05_production_drawing"
+title: "Production Drawing"
 ---
 
 # 05_production_drawing
