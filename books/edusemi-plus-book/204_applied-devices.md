@@ -1,6 +1,5 @@
 ---
-layout: default
-title: 🔬 応用デバイス / Applied Devices
+title: "応用デバイス / Applied Devices"
 ---
 
 ---
