@@ -1,6 +1,5 @@
 ---
-layout: default
-title: "Assembly & Integration | 実装技術"
+title: "Assembly & Integration / 実装技術"
 ---
 
 ---
