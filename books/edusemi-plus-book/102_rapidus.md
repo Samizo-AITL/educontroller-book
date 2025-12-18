@@ -1,5 +1,5 @@
 ---
-title: "Rapidusと2nm技術の挑戦 "
+title: "【Rapidus】日本先端半導体復権の技術と課題"
 ---
 
 ---
