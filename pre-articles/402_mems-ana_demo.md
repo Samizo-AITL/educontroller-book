@@ -53,7 +53,7 @@ MEMS の圧電デバイスでは、
 👉 **インタラクティブデモ（GitHub Pages）**  
 https://samizo-aitl.github.io/mems-ana/mems-ana_demo/
 
-- 表示内容：$u_z(x,y)$ の符号付き変位分布
+- 表示内容： $u_z(x,y)$  の符号付き変位分布
 - 色スケール：全フレーム共通
 - 電圧掃引：ヒステリシス入力に対応
 
