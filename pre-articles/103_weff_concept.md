@@ -3,6 +3,7 @@ title: "【半導体】Weffの考え方：幅Wは構造パラメータ"
 emoji: "📏"
 type: "tech"
 topics: ["Weff", "FinFET", "回路設計", "デバイスモデル"]
+published: true
 ---
 
 ## はじめに
