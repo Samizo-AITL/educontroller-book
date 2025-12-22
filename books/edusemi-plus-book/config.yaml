@@ -16,7 +16,7 @@ chapters:
 
   # ====== Part 2: 材料・デバイス・応用 ======
   - 201_materials.md
-  - 202_Assembly-Integration.md
+  - 202_assembly-integration.md
   - 203_quantum-semiconductor.md
   - 204_applied-devices.md
   - 205_ai-semiconductor.md
