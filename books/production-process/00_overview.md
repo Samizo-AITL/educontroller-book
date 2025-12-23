@@ -21,7 +21,7 @@ title: "Overview"
 
 ## 📘 **概要 | Overview**
 
-本セクションでは、**Creoを用いた設計初期段階から、量産図面作成、BOM（部品表）生成、設計レビュー（DR）を経て、MP（Mass Production：量産）に至るまでの一連の実践プロセス**を学びます。  
+本セクションでは、**Creoを用いた設計初期段階から、量産図面作成、BOM（部品表）生成、設計レビュー（DR）を経て、MP（Mass Production：量産）に至るまでの一連の実践プロセス**を学びます。   
 設計意図の明確化、試作・計測結果の反映、公差・材料指定、構成管理までを網羅し、実務に近い設計フローを体験できます。   
 
 This module provides **hands-on training in the complete development cycle**—from initial 3D CAD modeling using Creo, to creating production-ready drawings, generating BOMs, conducting design reviews, and preparing for mass production.  
