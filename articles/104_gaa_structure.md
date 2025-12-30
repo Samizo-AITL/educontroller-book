@@ -6,7 +6,7 @@ topics: ["GAA", "ナノシート", "MOSFET"]
 published: true
 ---
 
-## はじめに
+## はじめに 
 
 Planar MOSFET は SCE によって行き詰まり、  
 FinFET は「形状」によって電界制御を取り戻しました。
