@@ -48,7 +48,7 @@ Samizo-AITL Portal は、制御・半導体・AIアーキテクチャ（AITL）�
 以下は、GA4「ユーザー属性 > 概要」から取得した  
 **国別アクティブユーザー分布**です。
 
-![Samizo-AITL Portal 国別ユーザー分布（過去28日）](assets/figs/ga4.png)
+![Samizo-AITL Portal 国別ユーザー分布（過去28日）](https://samizo-aitl.github.io/zenn-books/assets/figs/ga4.png)
 
 ---
 
@@ -57,7 +57,7 @@ Samizo-AITL Portal は、制御・半導体・AIアーキテクチャ（AITL）�
 次に、同ポータルの **リアルタイムアクセス状況** を確認します。  
 以下は GA4「リアルタイムの概要」画面のスクリーンショットです。
 
-![Samizo-AITL Portal リアルタイムアクセス（GA4）](assets/figs/ga4_2.png)
+![Samizo-AITL Portal リアルタイムアクセス（GA4）](https://samizo-aitl.github.io/zenn-books/assets/figs/ga4_2.png)
 
 ### リアルタイム画面の読み方
 
