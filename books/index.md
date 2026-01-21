@@ -1,3 +1,8 @@
+---
+title: "zenn-books"
+description: "zenn-books"
+---
+
 # 📚 Zenn Books Directory
 
 The `books/` directory is used to manage **only books that are actively being written or updated**  
