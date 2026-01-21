@@ -1,32 +1,36 @@
----
-title: "Zenn Books Directory"
----
-
 # 📚 Zenn Books Directory
 
-このディレクトリ `books/` は、**Zenn で公開・更新する「執筆中の書籍のみ」**を管理するための場所です。  
-Zenn の GitHub 連携では、`books/` 配下に存在する各フォルダが **1 冊の書籍**として自動認識されます。
+The `books/` directory is used to manage **only books that are actively being written or updated**  
+and are intended to be published on **Zenn**.
 
-> ✅ **完成済み・凍結済みの書籍は `done-books/` に移動します**  
-> ❌ `books/` に置かれた書籍のみが Zenn のデプロイ対象になります
+With Zenn’s GitHub integration, **each folder directly under `books/` is automatically recognized as one book**.
+
+> ✅ **Completed or frozen books must be moved to `done-books/`**  
+> ❌ Only books located under `books/` are deployed to Zenn
 
 ---
 
-## 🚦 運用方針（重要）
+## 🚦 Operational Policy (Important)
 
 - `books/`  
-  → **執筆中 / 更新中（Active）** の書籍のみを配置  
+  → **Active books** (writing in progress / under revision)
 - `done-books/`  
-  → **完成済み / 凍結（Frozen）** 書籍のアーカイブ  
-- 原則として  
-  **`books/` には 0〜1 冊のみを置く** ことで、  
-  Zenn の投稿数制限・誤更新を防止します。
+  → **Completed or frozen books**, archived for long-term reference
+
+As a general rule:
+
+> **Keep 0 or 1 book in `books/` at any given time**
+
+This policy helps prevent:
+- Accidental deployments
+- Exceeding Zenn’s posting limits
+- Unintended updates to completed books
 
 ---
 
-## 📘 現在の状態
+## 📘 Current Status
 
-現在、`books/` には **執筆中の書籍は存在しません**。
+At present, there are **no active books** under `books/`.
 
 ```text
 books/
@@ -34,20 +38,20 @@ books/
 └ README.md
 ```
 
-- `.gitkeep` は、空ディレクトリを Git 管理下に保つためのものです
-- 新しい書籍を開始する場合のみ、ここにフォルダを追加します
+- `.gitkeep` is used to keep the empty directory under Git version control
+- A new folder should be added **only when starting a new book**
 
 ---
 
-## ✍ 新しい書籍を追加する場合
+## ✍ Adding a New Book
 
-以下の構造で `books/` 配下に新しいフォルダを作成してください。
+When starting a new book, create a new folder under `books/` with the following structure:
 
 ```text
 books/
 └ my-new-book/
   ├ config.yaml
-  ├ cover.png        # 任意
+  ├ cover.png        # optional
   ├ 01_intro.md
   ├ 02_theory.md
   └ 03_application.md
@@ -55,12 +59,12 @@ books/
 
 ---
 
-## 📌 Zenn 書籍の構築ルール
+## 📌 Zenn Book Structure Rules
 
-### ✔ 書籍フォルダ直下に `.md` を配置
-- サブディレクトリ（`chapters/` など）は使用不可
+### ✔ Place `.md` files directly under the book folder
+- Subdirectories (e.g. `chapters/`) are **not allowed**
 
-### ✔ `config.yaml` の `chapters:` で章順を指定
+### ✔ Define chapter order in `config.yaml`
 ```yaml
 chapters:
   - 01_intro
@@ -68,37 +72,25 @@ chapters:
   - 03_application
 ```
 
-### ✔ `cover.png` は任意
-- 設定すると Zenn 上で表紙として表示されます
+### ✔ `cover.png` is optional
+- If provided, it will be displayed as the book cover on Zenn
 
-### ✔ GitHub → Zenn の連携はリポジトリ単位
-- `zenn-books` を 1 回連携すれば  
-  `books/` 配下の書籍は自動的に検出・反映されます
+### ✔ GitHub → Zenn integration is repository-based
+- Once `zenn-books` is linked to Zenn,  
+  all books under `books/` are automatically detected and deployed
 
 ---
 
-## 🧊 完成書籍について
+## 🧊 Completed Books
 
-完成した書籍は、以下のコマンドで **必ず `done-books/` に移動**してください。
+Once a book is completed, **always move it to `done-books/`** using the following command:
 
 ```powershell
-git mv books/書籍名 done-books/
+git mv books/book-name done-books/
 ```
 
-これにより：
+This ensures:
 
-- Zenn デプロイ対象から除外
-- 意図しない更新・再ビルドを防止
-- 教材アーカイブとして長期保存
-
-が可能になります。
-
----
-
-## 👤 Author
-
-**Samizo-AITL**  
-AI × 制御 × 半導体 技術教育プロジェクト  
-
-GitHub / Zenn / 教材アーカイブを統合した  
-長期運用前提の技術教育基盤を構築中。
+- The book is excluded from Zenn deployment
+- Accidental rebuilds or edits are avoided
+- The content is preserved as a long-term educational archive
