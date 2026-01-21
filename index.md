@@ -174,38 +174,3 @@ but for **engineering-oriented feedback and design validation**.
 > Suggestions, improvements, and discussions are welcome via GitHub Discussions.
 
 [![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/zenn-books/discussions)
-
-
-
-## 👤 Author
-
-**Shinichi Samizo**
-
-- Semiconductor devices (logic, memory, HV mixed-signal)
-- Inkjet precision actuators & productization
-- Control systems & AI-assisted architecture (AITL)
-- ISO-based technical education design
-
-GitHub: https://github.com/Samizo-AITL
-
----
-
-## 📄 License
-
-This repository follows a **Hybrid License** model.
-
-| Content Type | License |
-|---|---|
-| Source Code | MIT License |
-| Text Materials | CC BY 4.0 / CC BY-SA 4.0 |
-| Figures & Diagrams | CC BY-NC 4.0 |
-
-Details:  
-https://samizo-aitl.github.io/mems-ana//#-license
-
----
-
-> Engineering is completed not only by building systems,  
-> but by structuring knowledge and verifying how it is understood.
-
-**zenn-books** is both a library and an experiment in technical education.
