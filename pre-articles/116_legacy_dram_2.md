@@ -1,5 +1,5 @@
 ---
-title: "0.25µm DRAM Pause Refresh異常の物理的正体"
+title: "【半導体】0.25µm DRAM Pause Refresh異常の物理的正体"
 emoji: "⚛️"
 type: "tech"
 topics: ["半導体", "DRAM", "故障解析", "デバイス物理", "プロセス"]
