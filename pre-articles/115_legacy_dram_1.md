@@ -1,5 +1,5 @@
 ---
-title: "0.25µm DRAMで観測されたPause Refresh異常"
+title: "【半導体】0.25µm DRAMで観測されたPause Refresh異常"
 emoji: "🧪"
 type: "tech"
 topics: ["半導体", "DRAM", "故障解析", "信頼性", "プロセス"]
